@@ -167,9 +167,9 @@ document.addEventListener("click", function () {
     } else if (selectedCity.value === "option3") {
       table.classList.add("display");
     } else if (selectedCity.value === "option6") {
-      getTime("London", 5368361);
+      getTime("Los Angeles", 5368361);
     } else if (selectedCity.value === "option7") {
-      getTime("London", 2988507);
+      getTime("Paris", 2988507);
     }
   });
 });
