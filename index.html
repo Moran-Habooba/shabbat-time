@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src=" ./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Shabbat Time</title>
+  </head>
+  <body>
+    <div class="center">
+      <h1>זמני כניסת השבת</h1>
+      <img src="./giphy.gif" alt="" />
+    </div>
+    <div class="centerTable">
+      <table class="table">
+        <tr>
+          <th>תאריך:</th>
+          <td id="date"></td>
+        </tr>
+        <tr>
+          <th>כניסת שבת:</th>
+          <td id="shabbatTime"></td>
+        </tr>
+        <tr>
+          <th>הבדלה:</th>
+          <td id="havdala"></td>
+        </tr>
+        <tr>
+          <th>פרשת השבוע:</th>
+          <td id="parashatSHavoua"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="center">
+      <h2>בחר אזור</h2>
+      <select id="citySelect">
+        <option value="option1">תל אביב</option>
+        <option value="option2">ירושלים</option>
+        <option value="option4">אשדוד</option>
+        <option value="option5">לונדון</option>
+        <option value="option6">לוס אנג'לס</option>
+        <option value="option7">פריז</option>
+        <option value="option3" selected="selected"></option>
+      </select>
+    </div>
+  </body>
+</html>

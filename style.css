@@ -1,0 +1,50 @@
+.shabbat-time {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+.table {
+  direction: rtl;
+  border: 3px solid black;
+  font-size: 25px;
+}
+.display {
+  display: none;
+}
+.center {
+  text-align: center;
+  font-size: 35px;
+}
+.table td {
+  border: 1px solid black;
+}
+.table th {
+  border: 1px solid black;
+}
+.centerTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: rgb(253, 253, 253);
+  text-shadow: 2px 3px black;
+  font-size: 55px;
+}
+body {
+  background-image: url(./Cat_490560_2269.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#citySelect {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 0;
+}
+h2 {
+  color: rgb(223, 68, 228);
+  text-shadow: 2px 1px rgb(11, 11, 11);
+  font-size: 55px;
+  margin-bottom: 0;
+}
